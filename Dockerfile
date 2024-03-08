@@ -4,7 +4,7 @@ WORKDIR /app
 
 EXPOSE 8443
 
-COPY target/docker-demo-0.0.1-SNAPSHOT.jar /app/docker-demo.jar 
+COPY docker-demo-0.0.1-SNAPSHOT.jar /app/docker-demo.jar 
 
 COPY keystore.p12 /keystore.p12
 
